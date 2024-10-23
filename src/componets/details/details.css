@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column; /* Stack items vertically */
     padding: 20px; /* Add padding around the detail section */
-    background-color: rgba(0, 0, 0, 0.826);
+    background-color: rgba(111, 164, 244, 0.718);
 }
 
 .userDetails {
@@ -17,10 +17,11 @@
     
     
     
+    
 }
     .userDetails p{
         font-size: 14px;
-        color: #ffffffef;
+        color:rgb(78, 101, 105);
         font-weight: 300;
     }
 
@@ -36,20 +37,14 @@
     display: flex; /* Use flexbox for the option container */
     justify-content: space-between; /* Space between text and icon */
     align-items: center; /* Center vertically */
-    background-color: rgb(51, 49, 49);
-    
     padding: 10px 15px;
-    border-radius: 8px; /* Rounded corners */
     cursor: pointer;
     transition: background-color 0.3s;
     margin-bottom: 15px; /* Space between options */
     
 }
 
-.option:hover {
-    background-color: white;
-    color: black; /* Slightly lighter color on hover */
-}
+
 
 .title {
     display: flex;
