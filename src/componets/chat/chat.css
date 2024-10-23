@@ -1,18 +1,31 @@
 .chat{
     flex:2;
-    border-left: 1px solid #dddddd35;
-    border-right: 1px solid #dddddd35;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
     height:100%;
     display: flex;
     flex-direction: column;
+}
+&::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1); /* Background of the scrollbar track */
+    border-radius: 10px; /* Rounded corners for the scrollbar track */
+}
+
+&::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3); /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+}
+
+&::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5); /* Color on hover */
 }
     .top{
         padding: 20px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        border-bottom: 1px solid #dddddd35;
-        background-color: rgba(17, 25, 40, 0.5);
+        border-bottom: 1px solid white;
+        background-color: rgba(0, 0, 0, 0.826);
     
 .user{
             display:flex;
@@ -41,7 +54,7 @@
 
         p{
             font-size: 14px;
-            color: #aaaaaa;
+            color: #ffffffea;
             font-weight: 300;
         }
         
@@ -79,15 +92,17 @@
 }
 
 .messageown p  {
-    background-color: #aaaaaa;
+    background-color: white;
     padding: 20px;
     border-radius: 10px;
+    color:black ;
 }
 
 .message p  {
-    background-color: blue;
+    background-color: rgb(51, 49, 49);
     padding: 20px;
     border-radius: 10px;
+    color: white ;
 
 }
 
@@ -122,7 +137,7 @@
     align-items: center;
     justify-content: space-between;
     border-top: 1px solid #dddddd35;
-    background-color: rgba(17, 25, 40, 0.5);
+    background-color: rgba(0, 0, 0, 0.826);
     margin-top: auto;
 }
 .emoji{
