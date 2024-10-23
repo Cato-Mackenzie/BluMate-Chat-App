@@ -1,0 +1,94 @@
+.chatlist {
+  flex: 1;
+  overflow: scroll;
+  &::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+&::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1); /* Background of the scrollbar track */
+    border-radius: 10px; /* Rounded corners for the scrollbar track */
+}
+
+&::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3); /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+}
+
+&::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5); /* Color on hover */
+}
+}
+  .search {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Lighter background for contrast */
+  }
+
+    .searchBar {
+      flex: 1;
+      background-color: rgba(255, 255, 255, 0.1); /* Match search background */
+      display: flex;
+    }
+      input {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: white; /* Maintain text color */
+        flex: 1;
+        padding: 10px;
+      }
+
+      img {
+        width: 20px;
+        height: 20px;  
+      }
+
+    .add {
+      width: 36px;
+      height: 36px;
+      background-color: rgba(255, 255, 255, 0.1); /* Lighter background for the add button */
+      padding: 10px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Subtle divider */
+  }
+    .img2 {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .texts {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+      span {
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.9); /* Slightly lighter text */
+      }
+
+      p {
+        font-size: 14px;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.7); /* Softer color for subtext */
+      }
+      .add:hover {
+        background-color: rgba(17, 25, 40, 0.5); /* Light cyan on hover */
+    }
+    
+    .item:hover {
+        background-color: rgba(17, 25, 40, 0.5); /* Light cyan background on item hover */
+    }

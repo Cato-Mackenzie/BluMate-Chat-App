@@ -1,0 +1,83 @@
+.detail {
+    flex: 1;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    padding: 20px; /* Add padding around the detail section */
+   
+    color: white; /* Text color */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 400px; /* Set a max width for the detail section */
+    margin: auto; /* Center the detail section */
+}
+
+.userDetails {
+    padding: 20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 1px solid #3C4650;
+    margin-bottom: 30px;
+}
+
+.profileimg {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.option {
+    display: flex; /* Use flexbox for the option container */
+    justify-content: space-between; /* Space between text and icon */
+    align-items: center; /* Center vertically */
+    background-color: rgba(17, 25, 40, 0.614);
+    padding: 10px 15px;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 15px; /* Space between options */
+}
+
+.option:hover {
+    background-color: #555f68; /* Slightly lighter color on hover */
+}
+
+.title {
+    display: flex;
+    justify-content: space-between; /* Space between text and arrow */
+    align-items: center;
+    width: 100%;
+}
+
+.title span {
+    font-size: 16px;
+    font-weight: 500;
+    color: white; /* White text color */
+}
+
+.title img {
+    width: 20px; /* Adjust size as needed */
+    height: 20px;
+    filter: brightness(0) invert(1); /* Makes the arrow white */
+}
+
+.block-user-container {
+    margin-top: auto; /* Pushes the button to the bottom of the .detail section */
+}
+
+.block {
+    background-color: #e74c3c; /* Red background for the block button */
+    color: white; /* White text for the button */
+    border: none; /* Remove default border */
+    padding: 10px 15px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Transition effect for hover */
+    width: 100%; /* Make the button take full width */
+
+}
+
+.block:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
